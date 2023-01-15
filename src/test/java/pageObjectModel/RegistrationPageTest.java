@@ -28,12 +28,14 @@ public class RegistrationPageTest {
 	RGPage.enterPassword("qwertyui@0");
 	RGPage.enterConfirmPswd("qwertyui@0");
 	RGPage.clickOncompRegister();
+	Thread.sleep(1000);
 	//RGPage.alert();
 	RGPage.clickOnSignin();
 	RGPage.clickOnLogin();
 	RGPage.enterUserName1("FeminaJosh");
 	RGPage.enterPassword1("qwertyui@0");
 	RGPage.clickOnLogin();
+	Thread.sleep(500);
 	RGPage.clickOnSignout();
 
 	
